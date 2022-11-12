@@ -1,5 +1,5 @@
 {
-         "name": "tutorialmvc/composer-json",
+         "name": "tutorialmvc/composer.json",
         "autoload":{
         "psr-4":{
             "App\\":"app/"

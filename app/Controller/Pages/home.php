@@ -2,9 +2,16 @@
 
 namespace App\Controller\Pages;
 
+use \App\Utils\View;
+
 class Home{
-    #método responsável por retornar o conteúdo (view) da página home
+    /** 
+    *método responsável por retornar o conteúdo (view) da página home
+    *@return string
+    */
+    
     public static function getHome(){
-        return "Olá Mundo!";
+
+        return View::render('pages/home');
     }
 }
